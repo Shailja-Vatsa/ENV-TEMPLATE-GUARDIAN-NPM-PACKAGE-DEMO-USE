@@ -1,0 +1,23 @@
+{
+  "name": "configguard-demo",
+  "version": "1.0.0",
+  "description": "Demo application for env-template-guardian",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "env:check": "env-template-guardian",
+    "env:check:strict": "env-template-guardian --strict",
+    "env:fix": "env-template-guardian --fix"
+  },
+  "dependencies": {
+    "env-template-guardian": "^1.0.0"
+  },
+  "keywords": [
+    "env-template-guardian",
+    "demo",
+    "environment-validation"
+  ],
+  "author": "",
+  "license": "MIT"
+}
